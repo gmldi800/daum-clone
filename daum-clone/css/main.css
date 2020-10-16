@@ -68,13 +68,20 @@ a:hover {
   box-sizing: border-box;
   text-indent: 0;
   text-align: center;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 .top_menu a:nth-child(2) {
   background: url("../images/minidaum_v5\ \(1\).png") no-repeat 0 -20px;
 }
+.top_menu a:nth-child(2):hover {
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat -60px -20px;
+}
+
 .top_menu a:nth-child(3) {
   background: url("../images/minidaum_v5\ \(1\).png") no-repeat -30px -20px;
   margin-right: 0;
+}
+.top_menu a:nth-child(3):hover {
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat -90px -20px;
 }
