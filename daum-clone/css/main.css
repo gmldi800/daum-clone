@@ -85,3 +85,55 @@ a:hover {
 .top_menu a:nth-child(3):hover {
   background: url("../images/minidaum_v5\ \(1\).png") no-repeat -90px -20px;
 }
+
+/* content */
+.content {
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+}
+
+.title,
+.title > ul {
+  display: flex;
+}
+
+/* nav */
+nav {
+  border-top: 1px solid var(--gray-light);
+  border-bottom: 1px solid var(--gray-light);
+}
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav a {
+  display: block;
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav {
+  display: flex;
+  float: left;
+}
+.nav a {
+  padding: 0 14px;
+}
+
+.nav_extra {
+  display: flex;
+  float: right;
+}
+
+.nav_extra a {
+  padding: 0 8px;
+}
