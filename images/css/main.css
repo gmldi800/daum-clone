@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --primary: #333;
+  --dark: #111;
+  --accent: #1e88e5;
+  --gray-dark: #666;
+  --gray-mid: #999;
+  --gray-light: #e2e2e2;
+  --bg-color: #f6f6f6;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* top */
+.wrap {
+  background: var(--bg-color);
+}
+
+.top {
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-indent: -9999px;
+  display: block;
+  width: 42px;
+  height: 17px;
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat 0 0;
+}
+
+.top_menu {
+  display: flex;
+  align-items: center;
+}
+
+.top_menu a {
+  text-indent: -9999px;
+  width: 24px;
+  height: 24px;
+  margin: 0 12px;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--gray-dark);
+}
+
+.top_menu a:nth-child(1) {
+  width: 52px;
+  border: 1px solid var(--gray-mid);
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-indent: 0;
+  text-align: center;
+  line-height: 22px;
+}
+
+.top_menu a:nth-child(2) {
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat 0 -20px;
+}
+.top_menu a:nth-child(2):hover {
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat -60px -20px;
+}
+
+.top_menu a:nth-child(3) {
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat -30px -20px;
+  margin-right: 0;
+}
+.top_menu a:nth-child(3):hover {
+  background: url("../images/minidaum_v5\ \(1\).png") no-repeat -90px -20px;
+}
