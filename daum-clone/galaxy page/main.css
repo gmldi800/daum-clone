@@ -61,7 +61,7 @@ a {
 .section_01 {
   background: #f5f5f5;
   display: block;
-  width: 100%;
+  width: ;
   height: 600px;
   position: relative;
 }
@@ -99,6 +99,7 @@ a {
 
 .section_01 .right {
   margin-left: 47%;
+  align-items: baseline;
 }
 
 .section_01 .right .photo {
@@ -160,20 +161,25 @@ a {
   font-weight: 600;
 }
 .section_03 .text span {
-  padding: 32px 0 64px 0;
+  display: inherit;
+  margin: 32px 0 64px 0;
   color: #666666;
   font-size: 16px;
 }
+
 .section_03 .photo {
-  display: inline-block;
-  width: 1165px;
+  display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+  width: 260px;
+  height: 260px;
 }
 
 .section_03 .photo img {
+  /* display: inherit; */
   margin-right: 40px;
+  /* justify-content: space-between; */
   width: 160px;
   height: 160px;
+  padding: 50px;
   background: #f2f2f2;
 }
