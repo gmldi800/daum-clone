@@ -69,3 +69,20 @@
 .section_01 .right .photo {
   padding: 104px 0 101px 0;
 }
+
+
+
+
+.footer .right .bottom_menu > li:last-child {
+  padding-right: 0;
+}
+
+.footer .right .bottom_menu > li > a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer .right .bottom_menu ul li {
+} */

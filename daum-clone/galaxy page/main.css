@@ -278,7 +278,7 @@ span {
   height: 360px;
   border-radius: 30px;
 }
-/* footer */
+/* footer_left */
 footer {
   height: 600px;
   background: #222222;
@@ -320,29 +320,25 @@ footer {
 .i_tag {
   margin: 20px 16px 65px 0;
 }
-
-/* .footer .left .btn .footer .left .copyright {
-  padding: 65px 0;
+.i_tag i {
+  margin-right: 16px;
 }
 
+/* footer_right */
 .footer .right {
   float: right;
+  width: 560px;
+}
+
+.footer .right .bottom_menu {
   display: flex;
 }
-.footer .right .bottom_menu > li {
-  display: inline-block;
-  padding-right: 130px;
-}
-.footer .right .bottom_menu > li:last-child {
-  padding-right: 0;
-}
 
-.footer .right .bottom_menu > li > a {
-  display: inline-block;
+.footer .right .bottom_menu li h4 {
+  margin: 0 100px 52px 0;
   font-size: 20px;
   font-weight: 700;
+}
+.footer .right .bottom_menu .bottom_p li {
   margin-bottom: 30px;
 }
-
-.footer .right .bottom_menu ul li {
-} */
