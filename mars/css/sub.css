@@ -1,0 +1,79 @@
+.sub_header {
+  height: 400px;
+  background: url(../images/gallery/sub_header_bg.jpg) no-repeat center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.sub_header_title {
+  position: relative;
+  top: 50px;
+}
+.sub_header_title p {
+  width: 70%;
+  margin: 0 auto;
+}
+.sub_header_title h2 {
+  padding: 35px;
+  margin: 35px;
+  position: relative;
+  /* border-bottom: 1px solid #fff; */
+}
+.sub_header_title h2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 3px;
+  background: #fff;
+}
+
+/* 내용 */
+.breadcrumb {
+  color: var(--gray-mid);
+  font-size: 14px;
+}
+.breadcrumb a.current {
+  color: var(--gray-dark);
+  font-weight: 500;
+}
+.gallery_btns {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.gallery_btn {
+  width: 120px;
+  height: 40px;
+  color: var(--gray-dark);
+  background: #fff;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid var(--gray-dark);
+  margin: 0 10px;
+  outline: none;
+  cursor: pointer;
+}
+.gallery_btn.on {
+  color: #fff;
+  background: var(--gray-dark);
+}
+
+.grid-sizer,
+.grid-item {
+  width: 23.33%;
+  margin: 10px;
+}
+
+.mfp-bg {
+  background: #000;
+  opacity: 0.8;
+}
+.grid-item {
+  border-radius: 18px;
+  overflow: hidden;
+}

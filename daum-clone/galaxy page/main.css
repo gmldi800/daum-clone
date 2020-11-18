@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -72,7 +75,6 @@ span {
 
 .cart i {
   display: inline-block;
-  position: relative;
   font-size: 24px;
 }
 
@@ -215,9 +217,10 @@ span {
 .section_04 .text .btn {
   font-size: 16px;
   padding: 14px 38px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 30px;
   margin-top: 56px;
+  border-style: none;
 }
 
 /* section_05 */
@@ -273,17 +276,31 @@ span {
   justify-content: space-between;
 }
 
-.section_06 .photo img {
+.section_06 .photo li {
   width: 360px;
   height: 360px;
   border-radius: 30px;
+  background: red;
 }
+.section_06 .photo li:nth-child(1) {
+  background: url(./images/pc_01_kv_kor_200325.jpg) no-repeat center;
+  background-size: cover;
+}
+.section_06 .photo li:nth-child(2) {
+  background: url(./images/mo_21_kv_200318.jpg) no-repeat center;
+  background-size: cover;
+}
+.section_06 .photo li:nth-child(3) {
+  background: url(./images/mkt_pdp_flagship_kv_s7_200818.jpg) no-repeat center;
+  background-size: cover;
+}
+
 /* footer_left */
 footer {
   height: 600px;
   background: #222222;
   color: #ffffff;
-  padding: 120px;
+  padding: 120px 0;
   overflow: hidden;
 }
 
@@ -296,7 +313,27 @@ footer {
   margin: 41px 0 14px 0;
 }
 
-.footer .left .btn button {
+.email {
+  display: flex;
+}
+.email .adress {
+  width: 358px;
+  height: 50px;
+  border: none;
+  outline: none;
+}
+
+.email input {
+  padding: 20px;
+}
+.email .check {
+  width: 100px;
+  height: 50px;
+  background: #eb5757;
+  border-style: none;
+  color: #fff;
+}
+.footer .left button {
   margin: 20px 20px 20px 0px;
   border: 1px solid #666666;
   background: none;
